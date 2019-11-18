@@ -38,13 +38,13 @@ function randomSquare(ctx) {
   let color2 = random(0, 255);
   let color3 = random(0, 255);
   let color = `rgb(${color1},${color2},${color3})`
-  // ctx.fillStyle = color;
-
   let x = random(0, 480);
   let y = random(0, 320);
   let length = random(10, 100);
-  // ctx.fillRect(x, y, length, length);
   return draw(ctx, length, x, y, color);
+
+  // ctx.fillStyle = color;
+  // ctx.fillRect(x, y, length, length);
   // return {
   //   length: length,
   //   x: x,
