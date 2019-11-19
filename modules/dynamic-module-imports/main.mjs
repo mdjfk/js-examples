@@ -1,7 +1,9 @@
-import { Canvas } from './modules/canvas.mjs';
+import {
+  Canvas
+} from './modules/canvas.mjs';
 
 let circleBtn = document.querySelector('.circle');
-let squareBtn = document.querySelector('.square');
+let squareBtn = document.querySelectorAll('.square');
 let triangleBtn = document.querySelector('.triangle');
 
 // create the canvas and reporting list
