@@ -3,7 +3,7 @@ import {
 } from './modules/canvas.mjs';
 
 let circleBtn = document.querySelector('.circle');
-let squareBtn = document.querySelectorAll('.square');
+let squareBtn = document.querySelector('.square');
 let triangleBtn = document.querySelector('.triangle');
 
 // create the canvas and reporting list
